@@ -8,12 +8,18 @@
     display: flex;
     min-height: 100%;
 }
+.aside-fixed {
+    min-width: 90px;
+    margin-right: 25px;
+}
 .aside {
+    position: fixed;
+    height: 100%;
     min-width: 90px;
     flex-shrink: 0;
     background: #f3f3f3;
     padding: 15px 10px;
-    margin-right: 25px;
+
     &__inner {
         display: flex;
         flex-direction: column;
