@@ -1,0 +1,60 @@
+@keyframes reverse {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+@keyframes item {
+    0% {
+        transform: rotate(180deg);
+        opacity: 0;
+        left: -100px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        opacity: 1;
+        left: 0px;
+    }
+}
+@keyframes itemodd {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+@keyframes profile {
+    0% {
+        opacity: 0;
+        top: -50px;
+    }
+
+    100% {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+@keyframes logo {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+        top: -30px;
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        top: 0px;
+    }
+}
